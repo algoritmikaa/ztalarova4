@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Зухра — Детская одежда</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Зухра</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#products" class="nav-link">Товары</a></li>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+                <span class="theme-icon-light">🌞</span>
+                <span class="theme-icon-dark">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero секция -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <span class="hero-badge">✨ Осенняя коллекция 2025</span>
+                    <h1 class="hero-title">Стильная одежда <br> для самых маленьких</h1>
+                    <p class="hero-text">Натуральные ткани, удобные модели и яркий дизайн. Доставка по всей России.</p>
+                    <a href="#products" class="btn btn-primary">Смотреть товары →</a>
+                </div>
+                <div class="hero-image reveal">
+                    <div class="hero-image-placeholder">
+                        <span>🧸</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Товары -->
+        <section id="products" class="products section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Популярные модели</h2>
+                    <p class="section-subtitle">Детская одежда на любой сезон</p>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card reveal">
+                        <div class="product-image">
+                            <img src="https://basket-11.wbbasket.ru/vol1655/part165537/165537798/images/big/1.webp" alt="Платье для девочки" loading="lazy">
+                            <div class="product-badge">Хит</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Платье «Нежность»</h3>
+                            <p class="product-desc">100% хлопок, размеры 2-7 лет</p>
+                            <div class="product-footer">
+                                <span class="product-price">2 490 ₽</span>
+                                <button class="btn-cart" data-name="Платье «Нежность»">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card reveal">
+                        <div class="product-image">
+                            <img src="https://avatars.mds.yandex.net/i?id=58cfbc73d78eaa6fc4caedc40ede784fe304793f-4079348-images-thumbs&n=13" alt="Джинсовый комбинезон" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Комбинезон «Джинс»</h3>
+                            <p class="product-desc">Утеплитель, ветрозащита</p>
+                            <div class="product-footer">
+                                <span class="product-price">3 890 ₽</span>
+                                <button class="btn-cart" data-name="Комбинезон «Джинс»">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card reveal">
+                        <div class="product-image">
+                            <img src="https://avatars.mds.yandex.net/i?id=379331a1dcb8de729fab66c0b9697fbfd956c8ad-7753086-images-thumbs&n=13" alt="Футболка с принтом" loading="lazy">
+                            <div class="product-badge">Новинка</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Футболка «Зверята»</h3>
+                            <p class="product-desc">Набор из 2-х штук</p>
+                            <div class="product-footer">
+                                <span class="product-price">1 290 ₽</span>
+                                <button class="btn-cart" data-name="Футболка «Зверята»">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card reveal">
+                        <div class="product-image">
+                            <img src="https://img.ostin.com/upload/mdm/media_content/resize/f1e/867_1200_6abf/173937110299.jpg" alt="Штаны с подтяжками" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Штаны «Классика»</h3>
+                            <p class="product-desc">Эластичный пояс, карманы</p>
+                            <div class="product-footer">
+                                <span class="product-price">1 990 ₽</span>
+                                <button class="btn-cart" data-name="Штаны «Классика»">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- О нас / Преимущества -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Почему выбирают нас?</h2>
+                    <p class="section-subtitle">Забота о детях — наша главная ценность</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">🧵</div>
+                        <h3>Натуральные ткани</h3>
+                        <p>Только сертифицированные материалы, безопасные для нежной кожи.</p>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">🚚</div>
+                        <h3>Быстрая доставка</h3>
+                        <p>По Грозному — день в день, по России от 2 дней.</p>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Легкий обмен</h3>
+                        <p>Подберем размер или вернем деньги в течение 14 дней.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contacts" class="contacts section">
+            <div class="container contacts-container">
+                <div class="contacts-info reveal">
+                    <h2 class="section-title">Контакты</h2>
+                    <p class="contacts-subtitle">Приходите в гости или звоните — мы всегда рады!</p>
+                    <div class="contacts-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>ул. Умара Кадырова 21, Грозный</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <a href="tel:+79667222244" class="contact-phone">8 (966) 722-22-44</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">⏰</span>
+                            <span>Пн–Сб: 10:00–20:00, Вс: 11:00–18:00</span>
+                        </div>
+                    </div>
+                    <a href="tel:+79667222244" class="btn btn-secondary">Позвонить сейчас</a>
+                </div>
+                <div class="contacts-map reveal">
+                    <div class="map-placeholder">
+                        <span>📍 ул. Умара Кадырова 21</span>
+                        <small>(карта загружается)</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>© 2025 Магазин детской одежды «Зухра». Все права защищены.</p>
+            <p class="footer-phone">📞 <a href="tel:+79667222244">8 (966) 722-22-44</a></p>
+        </div>
+    </footer>
+
+    <script>
+        (function() {
+            // -------- ТЕМНАЯ / СВЕТЛАЯ ТЕМА --------
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+            
+            // Проверяем сохраненную тему
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                body.classList.remove('light-theme');
+                body.classList.add('dark-theme');
+            } else if (savedTheme === 'light') {
+                body.classList.remove('dark-theme');
+                body.classList.add('light-theme');
+            } else {
+                // Если нет сохраненной темы, оставляем светлую
+                body.classList.add('light-theme');
+            }
+
+            function setTheme(theme) {
+                if (theme === 'dark') {
+                    body.classList.remove('light-theme');
+                    body.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.classList.remove('dark-theme');
+                    body.classList.add('light-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            }
+
+            themeToggle.addEventListener('click', () => {
+                const isDark = body.classList.contains('dark-theme');
+                setTheme(isDark ? 'light' : 'dark');
+            });
+
+            // -------- АНИМАЦИЯ ПРИ СКРОЛЛЕ (reveal) --------
+            const revealElements = document.querySelectorAll('.reveal');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        // Можно продолжить наблюдение, но для оптимизации отключаем
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15, rootMargin: '0px 0px -20px 0px' });
+            
+            revealElements.forEach(el => observer.observe(el));
+
+            // -------- ПЛАВНЫЙ СКРОЛЛ ДЛЯ НАВИГАЦИИ --------
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        e.preventDefault();
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // -------- ДЕМО-КНОПКИ КОРЗИНЫ --------
+            const cartButtons = document.querySelectorAll('.btn-cart');
+            cartButtons.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const productName = btn.getAttribute('data-name') || 'товар';
+                    alert(`🧸 ${productName} добавлен в корзину!`);
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
